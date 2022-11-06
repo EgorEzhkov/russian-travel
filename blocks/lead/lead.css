@@ -1,0 +1,5 @@
+.lead {
+	display: grid;
+	grid-template-rows: 25% 12% 51.5% 5%;
+	min-height: 1200px;
+}

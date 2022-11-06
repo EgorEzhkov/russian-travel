@@ -1,5 +1,7 @@
-.header__lang-link {
-	display: flex;
-	flex-direction: row;
-	font-size: 1px;
+.header__lang-links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 3%; 
+  margin: 0 10% 0 0;
 }
