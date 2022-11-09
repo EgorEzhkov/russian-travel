@@ -1,7 +1,6 @@
 .header__lang-links {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  gap: 3%; 
+	align-self: center;
+	justify-self: end;
+  column-gap: 10%;
   margin: 0 10% 0 0;
 }

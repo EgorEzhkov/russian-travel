@@ -1,0 +1,6 @@
+.intro {
+	display: grid;
+	grid-template-rows: 0.7fr 1.3fr 1.1fr;
+	max-width: 984px;
+	margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 .lead {
 	display: grid;
-	grid-template-rows: 25% 12% 51.5% 5%;
-	min-height: 1200px;
+	grid-auto-flow: row;
+	grid-template-rows: 1.1fr 0.65fr 3.1fr 0.4fr;
+	grid-template-columns: 1fr;
 }
