@@ -1,0 +1,13 @@
+.place {
+	max-width: 984px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"title url"
+	"image paragraph-one"
+	"image paragraph-two"
+	"image paragraph-two";
+	gap: 3%;
+}
