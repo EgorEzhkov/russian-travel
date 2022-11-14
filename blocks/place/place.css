@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: (repeat(auto-fill, 0.1 fr));
 	grid-template-areas: 
 	"title url"
 	"image paragraph-one"

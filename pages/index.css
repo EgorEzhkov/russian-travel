@@ -30,7 +30,25 @@
 @import url(../blocks/place/__website/_type/place__website_url-heading.css);
 @import url(../blocks/place/__paragraph/_item/place__paragraph_item-one.css);
 @import url(../blocks/place/__paragraph/_item/place__paragraph_item-two.css.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
 @import url();
 @import url();
 @import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+
+
 
