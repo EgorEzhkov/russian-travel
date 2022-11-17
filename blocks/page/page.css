@@ -4,3 +4,10 @@
   color: #FFFFFF;
   font-family: "Inter", "Arial", sans-serif;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.page {
+		max-width: 1024px;
+	
+	}
+}

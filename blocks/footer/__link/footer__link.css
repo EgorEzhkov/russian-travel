@@ -3,7 +3,7 @@
 	color: white;
 	transition: 0.5s;
 	height: fit-content;
-	justify-content: space-between;
+	align-self: flex-end;
 }
 
 .footer__link:hover {

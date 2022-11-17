@@ -3,3 +3,10 @@
 	max-height: 615px;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.lead__photo-map {
+		max-width: 928px;
+		max-height: 580px;
+	}
+}

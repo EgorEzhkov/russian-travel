@@ -11,3 +11,9 @@
 	"image paragraph-two";
 	gap: 3%;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.place {
+		max-width: 928px;
+	}
+}
