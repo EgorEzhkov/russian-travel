@@ -2,15 +2,15 @@
 	max-width: 984px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: (repeat(auto-fill, 0.1 fr));
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.7fr 0.1fr 0.2fr;
 	grid-template-areas: 
 	"title url"
 	"image paragraph-one"
-	"image paragraph-two"
 	"image paragraph-two";
 	gap: 3%;
 }
+
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 	.place {

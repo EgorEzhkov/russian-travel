@@ -1,3 +1,4 @@
 .place__paragraph_item-one {
 	grid-area: paragraph-one;
+	align-self: end;
 }
