@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.7fr 0.1fr 0.2fr;
+	grid-template-rows: 0.7fr 0.1fr 1.4fr;
 	grid-template-areas: 
 	"title url"
 	"image paragraph-one"
@@ -15,5 +15,12 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 	.place {
 		max-width: 928px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.place {
+		max-width: 720px;
+		margin: 0 auto;
 	}
 }

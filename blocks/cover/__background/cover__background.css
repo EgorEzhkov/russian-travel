@@ -3,15 +3,21 @@
 	background-repeat: no-repeat;
 	background-size: 1184px 740px;
 	background-position: center;
-	height: 740px;
-	width: 1184px;
+	min-height: 100px;
+	width: 100%;
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1184px) {
 	.cover__background {
-		background-size: 1024px 640px;
-		height: 640px;
-		width: 1024px;
+		background-size: cover;
+		
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.cover__background {
+		background-size: cover;
+
 	}
 }
