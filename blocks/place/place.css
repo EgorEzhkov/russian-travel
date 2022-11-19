@@ -24,3 +24,19 @@
 		margin: 0 auto;
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.place {
+		grid-template-columns: none;
+		grid-template-rows: 0.7fr 0.1fr 0.8fr 0.1fr 0.1fr;
+		grid-template-areas: 
+		"title"
+		"url"
+		"image"
+		'paragraph-one'
+		'paragraph-two';
+		gap: 3.5%;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
