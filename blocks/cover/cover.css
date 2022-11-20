@@ -1,11 +1,11 @@
 .cover {
-	min-width: 1280px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
 	.cover {
-		min-width: 1024px;
+		max-width: 1024px;
 	}
 }
 

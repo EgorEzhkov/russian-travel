@@ -1,6 +1,6 @@
 .header__lang-links {
 	align-self: center;
 	justify-self: end;
-  column-gap: 10%;
-  margin: 0 10% 0 0;
+	column-gap: 10%;
+	margin: 0 10% 0 0;
 }

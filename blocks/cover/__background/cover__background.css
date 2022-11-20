@@ -8,17 +8,15 @@
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1184px) {
+@media screen and (min-width: 1040px) and (max-width: 1184px) {
 	.cover__background {
 		background-size: cover;
-		
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1040px) {
 	.cover__background {
 		background-size: cover;
-
 	}
 }
 
