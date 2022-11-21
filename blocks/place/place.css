@@ -3,39 +3,39 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.7fr 0.1fr 1.4fr;
+	grid-template-rows: 0.6fr 0.1fr 1.4fr;
 	grid-template-areas: 
 	"title url"
-	"image paragraph-one"
-	"image paragraph-two";
+	"image paragraph"
+	"image .";
 	gap: 3%;
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
 	.place {
 		max-width: 928px;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.place {
 		max-width: 720px;
 		margin: 0 auto;
 	}
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 540px) {
 	.place {
 		grid-template-columns: none;
-		grid-template-rows: 0.7fr 0.1fr 0.8fr 0.1fr 0.1fr;
+		grid-template-rows: 0.5fr 0.1fr 0.8fr 0.1fr 0.1fr;
 		grid-template-areas: 
 		"title"
 		"url"
 		"image"
 		'paragraph-one'
 		'paragraph-two';
-		gap: 3.5%;
+		gap: 2.3%;
 		max-width: 100%;
 		margin: 0 auto;
 	}

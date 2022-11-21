@@ -1,6 +1,8 @@
 .header {
-  min-height: 100px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
+	max-width: 1280px;
+	margin: 0 auto;
+	min-height: 100px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
 }
