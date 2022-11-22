@@ -10,14 +10,12 @@
 @media screen and (max-width: 1024px) {
 	.lead {
 		max-width: 928px;
-		margin: 0 auto;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.lead {
 		max-width: 768px;
-		margin: 0 auto;
 	}
 }
 
@@ -25,7 +23,6 @@
 @media screen and (max-width: 320px)  {
 	.lead {
 		max-width: 100%;
-		margin: 0 auto;
 		grid-template-rows: 0.7fr 0.65fr 2.5fr;
 	}
 }

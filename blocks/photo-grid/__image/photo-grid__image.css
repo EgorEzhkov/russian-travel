@@ -4,10 +4,6 @@
 	list-style-type: none;
 }
 
-.photo-grid__image:last-of-type {
-	margin-bottom: 330px;
-}
-
 
 @media screen and (max-width: 1200px) {
 	.photo-grid__image {
@@ -23,7 +19,7 @@
 	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 737px) {
 	.photo-grid__image {
 		width: 288px;
 		height: 216px;

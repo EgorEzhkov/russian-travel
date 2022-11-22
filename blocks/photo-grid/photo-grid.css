@@ -1,7 +1,7 @@
 .photo-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 285px);
-	grid-template-rows: repeat(3, 215px) 1000px;
+	grid-template-rows: repeat(3, 215px);
 	justify-content: center;
 	gap: 15px;
 	max-width: 1184px;
@@ -26,7 +26,6 @@
 	.photo-grid {
 		grid-template-columns: 288px;
 		grid-template-rows: 216px;
-		width: 100%;
-		margin: 0 auto;
+
 	}
 }

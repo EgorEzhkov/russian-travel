@@ -11,20 +11,17 @@
 @media screen and (max-width: 1024px) {
 	.lead__caption {
 		max-width: 90%;
-		margin: 0 auto 40px auto;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.lead__caption {
 		max-width: 92%;
-		margin: 0 auto 40px auto;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.lead__caption {
 		max-width: 90%;
-		margin: 0 auto 40px auto;
 	}
 }
