@@ -6,18 +6,18 @@
 	padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 	.footer {
-		max-width: 928px;
+		max-width: 90%;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.footer {
-		max-width: 720px;
+		max-width: 90%;
 		margin-left: 16px;
 		flex-direction: column;
-
+		margin: 88px auto 0 auto;
 	}
 }
 
