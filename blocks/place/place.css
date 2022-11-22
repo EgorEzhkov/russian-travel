@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.4fr 0.1fr 1.4fr;
+	grid-template-rows: 0.4fr 0.1fr 1.8fr;
 	grid-template-areas: 
 	"title url"
 	"image paragraph"
@@ -15,7 +15,7 @@
 @media screen and (max-width: 1024px) {
 	.place {
 		max-width: 928px;
-		grid-template-rows: 0.6fr 0.1fr 1.4fr;
+		grid-template-rows: 0.6fr 0.1fr 1.8fr;
 	}
 }
 
@@ -23,7 +23,7 @@
 	.place {
 		max-width: 720px;
 		margin: 0 auto;
-		grid-template-rows: 0.1fr 0.1fr 1.7fr;
+		grid-template-rows: 0.1fr 0.1fr 1.4fr;
 		grid-template-columns: 0.6fr 1fr;
 	}
 }
