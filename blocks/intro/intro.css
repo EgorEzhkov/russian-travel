@@ -14,7 +14,6 @@
 @media screen and (max-width: 768px){
 	.intro {
 		max-width: 93.5%;
-		grid-template-rows: 0.1fr 1.3fr 0.3fr;
 		justify-content: end;
 	}
 }
@@ -23,6 +22,5 @@
 	.intro {
 		max-width: 91%;
 		justify-content: center;
-		grid-template-rows: 0.1fr 1.3fr 0.4fr;
 	}
 }

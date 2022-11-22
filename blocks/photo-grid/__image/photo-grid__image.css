@@ -4,11 +4,17 @@
 	list-style-type: none;
 }
 
+.photo-grid__image:last-of-type {
+	margin-bottom: 336px;
+}
 
 @media screen and (max-width: 1200px) {
 	.photo-grid__image {
 		width: 300px;
 		height: 225px;
+	}
+	.photo-grid__image:last-of-type {
+		margin-bottom: 10px;
 	}
 }
 
@@ -17,11 +23,17 @@
 		width: 352px;
 		height: 264px;
 	}
+	.photo-grid__image:last-of-type {
+		margin-bottom: 18px;
+	}
 }
 
 @media screen and (max-width: 737px) {
 	.photo-grid__image {
 		width: 288px;
 		height: 216px;
+	}
+	.photo-grid__image:last-of-type {
+		margin-bottom: 286px;
 	}
 }

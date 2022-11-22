@@ -1,6 +1,6 @@
 .lead__caption {
 	justify-content: start;
-	margin: 0 auto 40px auto;
+	margin: 0 auto 92px auto;
 	font-size: 10px;
 	line-height: 14px;
 	letter-spacing: 1.5px;
@@ -8,20 +8,22 @@
 	color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 945px) {
 	.lead__caption {
-		max-width: 90%;
+		max-width: 91%;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.lead__caption {
 		max-width: 92%;
+		margin: 0 auto 88px auto;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.lead__caption {
 		max-width: 90%;
+		margin: 0 auto 64px auto;
 	}
 }
